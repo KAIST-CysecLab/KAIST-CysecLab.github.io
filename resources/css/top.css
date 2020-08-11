@@ -1,0 +1,97 @@
+
+body {
+background-color:#ffffff;
+	margin:0px;
+//	font-family:Georgia, "Times New Roman", Times, serif;
+	font-family:Verdana, "Tahoma", sans-serif;}
+//#content a:link{text-decoration:none; font-size:12pt; font-weight:bold; color:#8db0e6}
+#content a:link{text-decoration:none; font-size:11pt; font-weight:bold; color: #444444}
+#content a:visited{text-decoration:none; color:#444444}
+#content a:hover{text-decoration:underline; color:#8db0e6}
+#pegasus {
+	background-image:url('../images/pegasus.png'); 
+	width:226px; 
+	height:95px;
+	margin:20px auto;
+}
+#wrap {
+	width:900px;
+	//height:1000px;
+	//background-color:gray;
+	margin:auto;
+	padding-top:10px;
+}
+#wrap2 {
+	width:1000px;
+	height:120px;
+	//background-color:gray;
+	margin:auto;
+	padding-top:10px;
+}
+
+#top {
+	height:110px;
+	//background-color:blue;
+}
+
+#a_top {
+	height:110px;
+	//background-color:blue;
+}
+#logo {
+	width:900px;
+	height:100px;
+	background-image:url("../images/cysec_logo2.png");
+//	float:left;
+//	display:inline-block;
+	margin-top:-5px;
+}
+#logo:hover {
+	cursor:pointer;
+}
+.menu_ul {
+	height:30px;
+	//background-color:yellow;
+	margin-left:50px;
+	padding:28px 0px 0px 0px;
+	list-style:none;
+	border-bottom:1px solid #ccc;
+}
+.menu_li {
+	margin-left:25px;
+	display:inline-block;
+	margin-right:12px;
+	padding:0px;
+	font-size:15pt;
+//	font-family :'arial';
+	font-family:Verdana, "Tahoma", sans-serif;
+		letter-spacing:-1px;
+	color:#555555;
+}
+.menu_li:hover {
+	color:#111;
+	cursor:pointer;
+}
+.sub_menu {
+	margin-top:-8px;
+	padding:0px;
+	list-style:none;
+	float:left;
+	margin-left:40px;
+	//display:none;
+}
+.sub_menu_li {
+	display:inline-block;
+	//background-color:blue;
+	font-family :'arial';
+	font-size:9pt;
+	margin-left:10px;
+	color:#999;
+}
+.sub_menu_li:hover {
+	text-decoration:underline;
+	cursor:pointer;
+}
+#sub_research {margin-left:80px;}
+#sub_members {margin-left:25px;}
+#sub_publications {margin-left:150px;}

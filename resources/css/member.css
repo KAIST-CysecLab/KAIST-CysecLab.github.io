@@ -1,0 +1,200 @@
+.member_ul {
+	padding:0px;
+	list-style:none;
+}
+
+.member_li {
+	clear:left;
+	height:180px;
+	margin-bottom:10px;
+	padding:5px 0px;
+	//border-bottom:1px solid #ccc;
+	//border-right:1px solid #ccc;
+}
+
+.member_title {
+	font-size:16pt;
+	//font-style:italic;
+	width:200px;
+	border-bottom:1px solid #ccc;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	color:#555555;
+}
+
+.member_pic {
+	width:120px;
+	height:150px;
+	border:1px solid #ccc;
+	float:left;
+	//background-image:url("../images/brentkang.jpg");
+}
+.member_interest {
+	//width:300px;
+	padding:5px 20px;
+	height:140px;
+	//border-left:1px solid #ccc;
+	margin-left:480px;
+	//background-color:green;
+}
+#professor_pic {
+	width:120px;
+	height:150px;
+	border:1px solid #ccc;
+	float:left;
+	background-image:url("../images/brentkang.jpg"); 
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+}
+#ms0_pic { background-image:url("../images/ksj.gif"); background-position: 50% 50%; background-repeat: no-repeat;}
+#ms1_pic { background-image:url("../images/kgd.gif"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#ms2_pic { background-image:url("../images/kjh.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#ms3_pic { background-image:url("../images/njs.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#ms4_pic { background-image:url("../images/jdh.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+#ms5_pic { background-image:url("../images/lsh.gif"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#ms6_pic { background-image:url("../images/jjs.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#ms7_pic { background-image:url("../images/cch2.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+#ms8_pic { background-image:url("../images/ljh.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+#ms9_pic { background-image:url("../images/ysy.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+
+#phd1_pic { background-image:url("../images/kkh.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+#phd2_pic { background-image:url("../images/minsukim.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+#phd3_pic { background-image:url("../images/lhj.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+#phd4_pic { background-image:url("../images/jdj.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+#phd5_pic { background-image:url("../images/lgy.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+#phd6_pic { background-image:url("../images/syyoo.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+#phd7_pic { background-image:url("../images/kjh.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+#phd8_pic { background-image:url("../images/njs.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+#phd9_pic { background-image:url("../images/jdh.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+#phd10_pic { background-image:url("../images/jjs.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+#phd11_pic { background-image:url("../images/cch2.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+
+.member_info {
+	float:left;
+	margin-left:30px;
+	//background-color:blue;
+	line-height:20px;
+	font-size:10pt;
+}
+.member_name {
+	font-size:15pt;
+	font-weight:bold;
+	letter-spacing:-1px;
+	margin:10px 0px 10px 0px;
+}
+.private_info {
+	clear:left;
+	margin-top:220px;
+	font-size:10pt;
+}
+#member_wrap {
+        padding: 20px;
+				width:800px;
+				min-height:800px;
+				background-color:#fafafa;
+				margin:30px auto;
+			//	margin:auto;
+				margin-top:10px;
+        border-radius:2px;				
+				border:1px solid #999;
+				font-size:10pt;
+				border-top:3px solid black;
+        box-shadow: 5px 5px 5px rgba(100,100,100,0.3);
+}
+			
+#member_top{
+		padding:30px 30px;
+		min-height:120px;
+}
+
+			#a_member_info {
+				font-size:12pt;
+				float:left;
+				margin-left:30px;
+			}
+
+	#a_ms2_pic { 
+				background-image:url("../images/jdh.jpg");
+				width:120px; 
+				height:150px;
+				float:left;
+			}
+			
+
+			#introduction {
+				margin-top:130px;
+				clear:left;
+			}			
+				#private_info {
+
+				padding-top:20px;
+			}
+						#update {
+				float:right;
+				font-size:10pt;
+				color:#999;
+			}
+
+			#a_bottom {
+				//border-top:1px solid #999;
+				padding:20px 20px;
+				//height:30px;
+			}
+
+				.sub_title {
+			//	width:200px;
+			//	border-bottom:1px solid #cccccc;
+				width:200px;
+//				border-left:4px solid #4b6da0;
+				padding:0px 5px 2px 5px;
+				//background-color:#333;
+				//color:white;
+			}
+			
+			.a_step1_li {
+	font-size:16pt;
+	//text-decoration:underline;
+	//font-weight:600;
+	//font-style:italic;
+	//color:#222222;
+	letter-spacing:-1px;
+	border-bottom:1px solid #cccccc;
+	width:800px;
+
+
+}
+
+		
+			.step1_ul {
+				list-style:none;
+				padding:0px;
+			}
+			.step1_li {
+				font-size:14pt;
+				color:#333;
+			}
+			.step2_ul {
+				list-style-type:none;
+				padding-left:0px;
+				margin-bottom:30px;
+			}
+			.step2_li {
+				font-size:11pt;
+				margin-top:10px;
+				margin-bottom:-5px;
+				//line-height:1.0em;
+				color:#666;
+			}
+      .step2_li:before{
+				content:"- "
+			}
+			.step3_li {
+				font-size:11pt;
+				margin-top:10px;
+				color:#666;
+			}
+			.subscription {
+				font-size:9pt;
+				margin:5px 0px 0px 13px;
+				color:#666;
+			}

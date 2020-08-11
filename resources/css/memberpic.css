@@ -1,0 +1,166 @@
+#bbkang_pic {
+//������ ������;
+				background-image:url("../images/brentkang.jpg");
+				width:120px; 
+				height:150px;
+				float:left;
+}	
+
+
+
+#gylee_pic { 
+//�̱Կ� �ڻ�4��;
+				background-image:url("../images/no_pic.jpg");
+				width:120px; 
+				height:150px;
+				float:left;
+}
+#mskim_pic {
+//��μ� �ڻ�5��;
+
+				background-image:url("../images/minsukim.jpg");
+				width:120px; 
+				height:150px;
+				float:left;
+}			
+
+#ysyoo_pic {
+//������ �ڻ�5��;
+				background-image:url("../images/no_pic.png");
+				width:120px; 
+				height:150px;
+				float:left;
+}			
+
+#khkim_pic {
+//���ȯ �ڻ�6��;
+				background-image:url("../images/no_pic.png");
+				width:120px; 
+				height:150px;
+				float:left;
+}			
+
+#hjlee_pic {
+//��ȣ�� �ڻ�6��;
+				background-image:url("../images/hjlee1.jpeg");
+				width:160px;
+				height:160px;
+				float:left;
+}			
+
+#djjung_pic {
+//������ �ڻ����;
+				background-image:url("../images/dongjaejung.jpg");
+				width:120px; 
+				height:150px;
+				float:left;
+}			
+
+
+
+#dhjang_pic {
+//����� ����3��;
+				background-image:url("../images/jdh.jpg");
+				width:120px; 
+				height:150px;
+				float:left;
+}			
+
+#jhkim_pic {
+//����ȯ ����4��;
+				background-image:url("../images/no_pic.png");
+				width:120px; 
+				height:150px;
+				float:left;
+}			
+
+#jsnoh_pic {
+//������ �ڻ����;
+				background-image:url("../images/jsnoh.jpg");
+				width:120px; 
+				height:150px;
+				float:left;
+}			
+
+#jsjang_pic {
+//������ �ڻ����;
+				background-image:url("../images/jisjang_pic.jpg");
+				width:120px; 
+				height:150px;
+				float:left;
+}		
+
+#chchoi_pic {
+//��âȣ ����4��;
+				background-image:url("../images/no_pic.png");
+				width:120px; 
+				height:150px;
+				float:left;
+}			
+
+#sjkong_pic {
+//������ ����5��;
+				background-image:url("../images/no_pic.png");
+				width:120px; 
+				height:150px;
+				float:left;
+}			
+
+#dgkim_pic {
+//���� �������;
+				background-image:url("../images/daegyeongkim.jpg");
+				width:120px; 
+				height:150px;
+				float:left;
+}			
+		
+
+#shlee_pic {
+//�̽��� �������;
+				background-image:url("../images/seunghyeonlee.jpg");
+				width:120px; 
+				height:150px;
+				float:left;
+}			
+	
+
+#jhlee_pic {
+//������ ����5��';
+				background-image:url("../images/ljh.jpg");
+				width:120px; 
+				height:150px;
+				float:left;
+}	
+
+#syyang_pic {
+//Seungyong Yang;
+
+                                background-image:url("../images/ysy.jpg");
+                                width:120px;
+                                height:150px;
+                                float:left;
+}
+
+
+#nhkwak_pic {
+
+                                background-image:url("../images/knh.jpg");
+                                width:120px;
+                                height:150px;
+                                float:left;
+}
+
+			
+//			#ms0_pic { background-image:url("../images/ksj.gif"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#ms1_pic { background-image:url("../images/kgd.gif"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#ms2_pic { background-image:url("../images/kjh.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#ms3_pic { background-image:url("../images/njs.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#ms4_pic { background-image:url("../images/jdh.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#ms5_pic { background-image:url("../images/lsh.gif"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#ms6_pic { background-image:url("../images/jjs.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#ms7_pic { background-image:url("../images/cch2.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#phd1_pic { background-image:url("../images/kkh.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#phd2_pic { background-image:url("../images/minsukim.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#phd3_pic { background-image:url("../images/lhj.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#phd4_pic { background-image:url("../images/jdj.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
+//#phd5_pic { background-image:url("../images/lgy.jpg"); background-position: 50% 50%; background-repeat: no-repeat;}
