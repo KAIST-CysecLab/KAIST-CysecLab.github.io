@@ -1,0 +1,13 @@
+@article{CHOI2024103568,
+title = {SuM: Efficient shadow stack protection on ARM Cortex-M},
+journal = {Computers & Security},
+volume = {136},
+pages = {103568},
+year = {2024},
+issn = {0167-4048},
+doi = {https://doi.org/10.1016/j.cose.2023.103568},
+url = {https://www.sciencedirect.com/science/article/pii/S0167404823004789},
+author = {Wonwoo Choi and Minjae Seo and Seongman Lee and Brent Byunghoon Kang},
+keywords = {ARM, Software vulnerability, Exploit mitigation, Shadow stack, Control-flow integrity, Compiler},
+abstract = {System software written in unsafe languages such as C/C++ is susceptible to various types of security vulnerabilities. Historically, backward-edges such as return addresses have been an attractive target for control-flow hijacking attacks due to the severity and ease of exploitation. Although various backward-edge control-flow integrity schemes have been proposed over the years, most of them mainly focus on protecting desktop/server-class systems, leaving embedded systems unprotected. Even worse, bringing their defense mechanisms into resource-constrained embedded systems is undesirable because they were originally designed for high-end computing systems and thus are not directly applicable to embedded systems without compromising performance and real-time constraints. In this paper, we propose Shadow under the Mask (SuM), an efficient and robust backward-edge control flow protection that is applicable to ARM Cortex-M processors. Specifically, SuM realizes a non-bypassable shadow stack mechanism and safeguards its structural integrity in a novel combination of an MPU and FaultMask—an overlooked hardware feature in Cortex-M processors. To be more specific, SuM restricts all access to the shadow stack through MPU, ensuring its integrity; and temporarily disables its MPU protection through FaultMask during the execution of safe instructions, guaranteeing that only authorized instructions can modify the shadow stack. In our empirical evaluation, SuM incurs minimal runtime overhead of 2.77% and 2.63%, respectively, on the BEEBS and CoreMark benchmark suites. These results underscore the viability of our proposed approach as a practical and potent solution to address the highlighted cybersecurity challenge.}
+}
