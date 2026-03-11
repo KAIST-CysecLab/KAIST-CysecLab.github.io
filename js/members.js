@@ -296,7 +296,7 @@ document.querySelector("#doctor").innerHTML = `${
         <p>${p.email} (at) kaist.ac.kr</p>
         <p></p>
         <p class="group">
-          <a class="btn btn-default${p.homepage ? "" : " invisible"}" href="${p.homepage}">Homepage &raquo;</a>
+          <a class="btn btn-default${p.homepage ? "" : " hidden"}" href="${p.homepage}">Homepage &raquo;</a>
         </p>
       </div>
     </div>
@@ -314,7 +314,7 @@ document.querySelector("#master").innerHTML = `${
         <p>${p.email} (at) kaist.ac.kr</p>
         <p></p>
         <p class="group">
-          <a class="btn btn-default${p.homepage ? "" : " invisible"}" href="${p.homepage}">Homepage &raquo;</a>
+          <a class="btn btn-default${p.homepage ? "" : " hidden"}" href="${p.homepage}">Homepage &raquo;</a>
         </p>
       </div>
     </div>

@@ -102,10 +102,10 @@ document.querySelector("#papers-1").innerHTML = `${
     <p>${p.authors.replace(/(Brent Byunghoon Kang)/i, "<b>$1</b>")}</p>
     <p>
       ${p.venue}
-      <a class="${p.doi ? "" : "invisible"}" href="https://doi.org/${p.doi}">[more]</a>
-      <a class="${p.link ? "" : "invisible"}" href="${p.link}">[more]</a>
-      <a class="${p.pdf ? "" : "invisible"}" href="publications/${p.pdf}.pdf">[PDF]</a>
-      <a class="${p.bib ? "" : "invisible"}" href="publications/${p.bib}.bib">[BIBTEX]</a>
+      <a class="${p.doi ? "" : "hidden"}" href="https://doi.org/${p.doi}">[more]</a>
+      <a class="${p.link ? "" : "hidden"}" href="${p.link}">[more]</a>
+      <a class="${p.pdf ? "" : "hidden"}" href="publications/${p.pdf}.pdf">[PDF]</a>
+      <a class="${p.bib ? "" : "hidden"}" href="publications/${p.bib}.bib">[BIBTEX]</a>
     </p>
   `).join("<p><br></p>")
 }`;
@@ -116,10 +116,10 @@ document.querySelector("#papers-2").innerHTML = `${
     <p>${p.authors.replace(/(Brent Byunghoon Kang)/i, "<b>$1</b>")}</p>
     <p>
       ${p.venue}
-      <a class="${p.doi ? "" : "invisible"}" href="https://doi.org/${p.doi}">[more]</a>
-      <a class="${p.link ? "" : "invisible"}" href="${p.link}">[more]</a>
-      <a class="${p.pdf ? "" : "invisible"}" href="publications/${p.pdf}.pdf">[PDF]</a>
-      <a class="${p.bib ? "" : "invisible"}" href="publications/${p.bib}.bib">[BIBTEX]</a>
+      <a class="${p.doi ? "" : "hidden"}" href="https://doi.org/${p.doi}">[more]</a>
+      <a class="${p.link ? "" : "hidden"}" href="${p.link}">[more]</a>
+      <a class="${p.pdf ? "" : "hidden"}" href="publications/${p.pdf}.pdf">[PDF]</a>
+      <a class="${p.bib ? "" : "hidden"}" href="publications/${p.bib}.bib">[BIBTEX]</a>
     </p>
   `).join("<p><br></p>")
 }`;
@@ -130,10 +130,10 @@ document.querySelector("#papers-3").innerHTML = `${
     <p>${p.authors.replace(/(Brent Byunghoon Kang)/i, "<b>$1</b>")}</p>
     <p>
       ${p.venue}
-      <a class="${p.doi ? "" : "invisible"}" href="https://doi.org/${p.doi}">[more]</a>
-      <a class="${p.link ? "" : "invisible"}" href="${p.link}">[more]</a>
-      <a class="${p.pdf ? "" : "invisible"}" href="publications/${p.pdf}.pdf">[PDF]</a>
-      <a class="${p.bib ? "" : "invisible"}" href="publications/${p.bib}.bib">[BIBTEX]</a>
+      <a class="${p.doi ? "" : "hidden"}" href="https://doi.org/${p.doi}">[more]</a>
+      <a class="${p.link ? "" : "hidden"}" href="${p.link}">[more]</a>
+      <a class="${p.pdf ? "" : "hidden"}" href="publications/${p.pdf}.pdf">[PDF]</a>
+      <a class="${p.bib ? "" : "hidden"}" href="publications/${p.bib}.bib">[BIBTEX]</a>
     </p>
   `).join("<p><br></p>")
 }`;
