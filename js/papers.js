@@ -1,4 +1,4 @@
-// title authors venue [doi] [link] [pdf] [bib]
+// title authors venue [doi|link] [pdf] [note]
 const papers = [
   // TODO
   {
@@ -93,7 +93,160 @@ const papers = [
     venue: "Information Sciences 2020",
     doi: "10.1016/j.ins.2020.08.082",
   },
-  // TODO
+  {
+    title: "SelMon: reinforcing mobile device security with self-protected trust anchor",
+    authors: "Jinsoo Jang and Brent Byunghoon Kang",
+    venue: "International Conference on Mobile Systems, Applications, and Services (MobiSys) 2020",
+    doi: "10.1145/3386901.3389023",
+    note: "<b>Honourable Mention</b>",
+  },
+  {
+    title: "Value-Based Constraint Control Flow Integrity",
+    authors: "Dongjae Jung, Minsu Kim, Jinsoo Jang and Brent Byunghoon Kang",
+    venue: "IEEE Access 2020",
+    doi: "10.1109/ACCESS.2020.2980026",
+  },
+  {
+    title: "The Image Game: Exploit Kit Detection Based on Recursive Convolutional Neural Networks",
+    authors: "Suyeon Yoo, Sungjin Kim and Brent Byunghoon Kang",
+    venue: "IEEE Access 2020",
+    doi: "10.1109/ACCESS.2020.2967746",
+  },
+  {
+    title: "On the Analysis of Byte-Granularity Heap Randomization",
+    authors: "Daehee Jang, Jonghwan Kim, Hojoon Lee, Minjoon Park, Yunjong Jung, Minsu Kim and Brent Byunghoon Kang",
+    venue: "IEEE Transactions on Dependable and Secure Computing (TDSC) 2019",
+    doi: "10.1109/TDSC.2019.2947913",
+    pdf: "ruma",
+  },
+  {
+    title: "Rethinking anti-emulation techniques for large-scale software deployment",
+    authors: "Daehee Jang, Yunjong Jeong, Sungman Lee, Minjoon Park, Kuenhwan Kwak, Donguk Kim and Brent Byunghoon Kang",
+    venue: "Computers & Security 2019",
+    doi: "10.1016/j.cose.2019.02.005",
+    pdf: "emul-detect",
+  },
+  {
+    title: "POLaR: Per-Allocation Object Layout Randomization",
+    authors: "Jonghwan Kim, Daehee Jang, Yunjong Jeong and Brent Byunghoon Kang",
+    venue: "IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) 2019",
+    doi: "10.1109/DSN.2019.00058",
+    pdf: "dsn19-Kim",
+  },
+  {
+    title: "Revisiting the ARM Debug Facility for OS Kernel Security",
+    authors: "Jinsoo Jang and Brent Byunghoon Kang",
+    venue: "Design Automation Conference (DAC) 2019",
+    doi: "10.1145/3316781.3317897",
+  },
+  {
+    title: "In-process Memory Isolation Using Hardware Watchpoint",
+    authors: "Jinsoo Jang and Brent Byunghoon Kang",
+    venue: "Design Automation Conference (DAC) 2019",
+    doi: "10.1145/3316781.3317843",
+  },
+  {
+    title: "Securing a communication channel for the trusted execution environment",
+    authors: "Jinsoo Jang and Brent Byunghoon Kang",
+    venue: "Computers & Security 2019",
+    doi: "10.1016/j.cose.2019.01.012",
+    pdf: "seccom19",
+  },
+  {
+    title: "SGX-LEGO: Fine-grained SGX controlled-channel attack and its countermeasure",
+    authors: "Deokjin Kim, Daehee Jang, Minjoon Park, Yunjong Jeong, Jonghwan Kim, Seokjin Choi and Brent Byunghoon Kang",
+    venue: "Computers & Security 2018",
+    doi: "10.1016/j.cose.2018.12.001",
+    pdf: "sgx-lego",
+  },
+  {
+    title: "Lord of the x86 Rings: A Portable User Mode Privilege Separation Architecture on x86",
+    authors: "Hojoon Lee, Chihyun Song and Brent Byunghoon Kang",
+    venue: "ACM SIGSAC Conference on Computer and Communications Security (CCS) 2018",
+    doi: "10.1145/3243734.3243748",
+  },
+  {
+    title: "FriSM: Malicious Exploit Kit Detection via Feature-Based String-Similarity Matching",
+    authors: "Sungjin Kim and Brent ByungHoon Kang",
+    venue: "Security and Privacy in Communication Networks (SecureComm) 2018",
+    link: "https://www.researchgate.net/publication/329975671_FriSM_Malicious_Exploit_Kit_Detection_via_Feature-Based_String-Similarity_Matching_14th_International_Conference_SecureComm_2018_Singapore_Singapore_August_8-10_2018_Proceedings_Part_I",
+  },
+  {
+    title: "Malicious URL protection based on attackers' habitual behavioral analysis",
+    authors: "Sungjin Kim, Jinkook Kim and Brent ByungHoon Kang",
+    venue: "Computers & Security 2018",
+    doi: "10.1016/j.cose.2018.01.013",
+    pdf: "1-s2.0-S0167404818300348-main",
+  },
+  {
+    title: "Retrofitting the Partially Privileged Mode for TEE Communication Channel Protection",
+    authors: "Jinsoo Jang and Brent Byunghoon Kang",
+    venue: "IEEE Transactions on Dependable and Secure Computing (TDSC) 2018",
+    doi: "10.1109/TDSC.2018.2840709",
+    pdf: "tfence_TDSC",
+  },
+  {
+    title: "A dynamic per-context verification of kernel address integrity from external monitors",
+    authors: "Hojoon Lee, Minsu Kim, Yunheung Paek and Brent Byunghoon Kang",
+    venue: "Computers & Security 2018",
+    doi: "10.1016/j.cose.2018.02.013",
+    pdf: "1-s2.0-S0167404818301421-main",
+  },
+  {
+    title: "Domain Isolated Kernel: A lightweight sandbox for untrusted kernel extensions",
+    authors: "Valentin J.M. Manès, Daehee Jang, Chanho Ryu and Brent Byunghoon Kang",
+    venue: "Computers & Security 2018",
+    doi: "10.1016/j.cose.2018.01.009",
+    pdf: "dikernel",
+  },
+  {
+    title: "Hacking in Darkness: Return-oriented Programming against Secure Enclaves",
+    authors: "Jaehyuk Lee, Jinsoo Jang, Yeongjin Jang, Nohyun Kwak, Yeseul Choi, Changho Choi, Taesoo Kim, Marcus Peinado and Brent Byunghoon Kang",
+    venue: "USENIX Security Symposium (USENIX Security) 2017",
+    link: "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/lee-jaehyuk",
+  },
+  {
+    title: "S-OpenSGX: A system-level platform for exploring SGX enclave-based computing",
+    authors: "Changho Choi, Nohyun Kwak, Jinsoo Jang, Daehee Jang, Kuenwhee Oh, Kyungsoo Kwag and Brent Byunghoon Kang",
+    venue: "Computers & Security 2017",
+    doi: "10.1016/j.cose.2017.06.006",
+    pdf: "SystemOpenSGX",
+  },
+  {
+    title: "KI-Mon ARM: A Hardware-Assisted Event-triggered Monitoring Platform for Mutable Kernel Object",
+    authors: "Hojoon Lee, Hyungon Moon, Ingoo Heo, Daehee Jang, Jinsoo Jang, Kihwan Kim, Yunheung Paek and Brent Byunghoon Kang",
+    venue: "IEEE Transactions on Dependable and Secure Computing (TDSC) 2017",
+    doi: "10.1109/TDSC.2017.2679710",
+    pdf: "KIMONARM",
+  },
+  {
+    title: "Invi-server: Reducing the attack surfaces by making protected server invisible on networks",
+    authors: "Jaehyun Park, Jiseong Noh, Myungchul Kim and Brent Byunghoon Kang",
+    venue: "Computers & Security 2017",
+    doi: "10.1016/j.cose.2017.02.012",
+    pdf: "Invi-server_Reducing_the_attack",
+  },
+  {
+    title: "PrivateZone: Providing a Private Execution Environment Using ARM TrustZone",
+    authors: "Jinsoo Jang, Changho Choi, Jaehyuk Lee, Nohyun Kwak, Seongman Lee, Yeseul Choi and Brent Byunghoon Kang",
+    venue: "IEEE Transactions on Dependable and Secure Computing (TDSC) 2016",
+    doi: "10.1109/TDSC.2016.2622261",
+    pdf: "PrivateZone_Providing_a_Private_Execution_Environment_using_ARM_TrustZone",
+  },
+  {
+    title: "On-demand bootstrapping mechanism for isolated cryptographic operations on commodity accelerators",
+    authors: "Yonggon Kim, Ohmin Kwon, Jinsoo Jang, Seongwook Jin, Hyeongboo Baek, Brent Byunghoon Kang and Hyunsoo Yoon",
+    venue: "Computers & Security 2016",
+    doi: "10.1016/j.cose.2016.06.006",
+    pdf: "On-demand_Bootstrapping_Mechanism_for_Isolated_Cryptographic_Operations_on_Commodity_Accelerators",
+  },
+  {
+    title: "",
+    authors: "",
+    venue: "",
+    doi: "",
+    pdf: "",
+  },
 ];
 
 document.querySelector("#papers-1").innerHTML = `${
@@ -105,8 +258,8 @@ document.querySelector("#papers-1").innerHTML = `${
       <a class="${p.doi ? "" : "hidden"}" href="https://doi.org/${p.doi}">[more]</a>
       <a class="${p.link ? "" : "hidden"}" href="${p.link}">[more]</a>
       <a class="${p.pdf ? "" : "hidden"}" href="publications/${p.pdf}.pdf">[PDF]</a>
-      <a class="${p.bib ? "" : "hidden"}" href="publications/${p.bib}.bib">[BIBTEX]</a>
     </p>
+    <p>${p.note || ""}</p>
   `).join("<p><br></p>")
 }`;
 
@@ -119,13 +272,13 @@ document.querySelector("#papers-2").innerHTML = `${
       <a class="${p.doi ? "" : "hidden"}" href="https://doi.org/${p.doi}">[more]</a>
       <a class="${p.link ? "" : "hidden"}" href="${p.link}">[more]</a>
       <a class="${p.pdf ? "" : "hidden"}" href="publications/${p.pdf}.pdf">[PDF]</a>
-      <a class="${p.bib ? "" : "hidden"}" href="publications/${p.bib}.bib">[BIBTEX]</a>
     </p>
+    <p>${p.note || ""}</p>
   `).join("<p><br></p>")
 }`;
 
-document.querySelector("#papers-3").innerHTML = `${
-  papers.splice(0, 6).map(p => `
+document.querySelector("#papers").innerHTML = `${
+  papers.map(p => `
     <p><b>${p.title}</b></p>
     <p>${p.authors.replace(/(Brent Byunghoon Kang)/i, "<b>$1</b>")}</p>
     <p>
@@ -133,7 +286,7 @@ document.querySelector("#papers-3").innerHTML = `${
       <a class="${p.doi ? "" : "hidden"}" href="https://doi.org/${p.doi}">[more]</a>
       <a class="${p.link ? "" : "hidden"}" href="${p.link}">[more]</a>
       <a class="${p.pdf ? "" : "hidden"}" href="publications/${p.pdf}.pdf">[PDF]</a>
-      <a class="${p.bib ? "" : "hidden"}" href="publications/${p.bib}.bib">[BIBTEX]</a>
     </p>
+    <p>${p.note || ""}</p>
   `).join("<p><br></p>")
 }`;
