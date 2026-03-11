@@ -240,12 +240,26 @@ const papers = [
     doi: "10.1016/j.cose.2016.06.006",
     pdf: "On-demand_Bootstrapping_Mechanism_for_Isolated_Cryptographic_Operations_on_Commodity_Accelerators",
   },
+  // TODO
   {
-    title: "",
-    authors: "",
-    venue: "",
-    doi: "",
-    pdf: "",
+    title: "Vulnerabilities of network OS and mitigation with state-based permission system",
+    authors: "Jiseong Noh, Seunghyeon Lee, Jaehyun Park, Seungwon Shin and Brent Byunghoon Kang",
+    venue: "Security and Communication Networks 2015",
+    doi: "10.1002/sec.1369",
+    pdf: "Noh_et_al-2015-Security_and_Communication_Networks",
+  },
+  {
+    title: "Detecting and Preventing Kernel Rootkit Attacks with Bus Snooping",
+    authors: "Hyungon Moon, Hojoon Lee, Ingoo Heo, Kihwan Kim, Yunheung Paek and Brent Byunghoon Kang",
+    venue: "IEEE Transactions on Dependable and Secure Computing (TDSC) 2015",
+    doi: "10.1109/TDSC.2015.2443803",
+    pdf: "vigilare_journel_TDSC",
+  },
+  {
+    title: "Implementing an Application-Specific Instruction-Set Processor for System-Level Dynamic Program Analysis Engines",
+    authors: "Ingoo Heo, Minsu Kim, Yongje Lee, Changho Choi, Jinyong Lee, Brent Byunghoon Kang and Yunheung Paek",
+    venue: "ACM Transactions on Design Automation of Electronic Systems (TODAES) 2015",
+    doi: "10.1145/2746238",
   },
 ];
 
@@ -265,6 +279,20 @@ document.querySelector("#papers-1").innerHTML = `${
 
 document.querySelector("#papers-2").innerHTML = `${
   papers.splice(0, 3).map(p => `
+    <p><b>${p.title}</b></p>
+    <p>${p.authors.replace(/(Brent Byunghoon Kang)/i, "<b>$1</b>")}</p>
+    <p>
+      ${p.venue}
+      <a class="${p.doi ? "" : "hidden"}" href="https://doi.org/${p.doi}">[more]</a>
+      <a class="${p.link ? "" : "hidden"}" href="${p.link}">[more]</a>
+      <a class="${p.pdf ? "" : "hidden"}" href="publications/${p.pdf}.pdf">[PDF]</a>
+    </p>
+    <p>${p.note || ""}</p>
+  `).join("<p><br></p>")
+}`;
+
+document.querySelector("#papers-3").innerHTML = `${
+  papers.splice(0, 28).map(p => `
     <p><b>${p.title}</b></p>
     <p>${p.authors.replace(/(Brent Byunghoon Kang)/i, "<b>$1</b>")}</p>
     <p>
