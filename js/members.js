@@ -31,6 +31,7 @@ const doctor = [
   {
     name: "Seo-ye Kim",
     email: "kimseoye",
+    photo: "김서예.jpg",
   },
   {
     name: "Doohyun Kim",
