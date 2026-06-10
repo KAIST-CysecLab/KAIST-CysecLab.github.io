@@ -61,6 +61,10 @@ const master = [
     email: "mingyu.jun",
   },
   {
+    name: "Juchang Lee",
+    email: "c2w2m2",
+  },
+  {
     name: "Hyunseok Kim",
     email: "ubuntu",
   },
