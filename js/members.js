@@ -3,6 +3,7 @@ const doctor = [
   {
     name: "Hyeonwoo Kang",
     email: "kanglib",
+    photo: "강현우.jpg",
     // homepage: "https://kanglib.pe.kr/",
   },
   {
@@ -20,7 +21,8 @@ const doctor = [
   {
     name: "Donghwa Kang",
     email: "anima0729",
-    homepage: "https://github.com/anima0729",
+    photo: "강동화.jpg",
+    homepage: "https://anima0729.github.io/",
   },
   {
     name: "Byeongsu Woo",
